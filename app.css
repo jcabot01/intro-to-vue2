@@ -1,0 +1,124 @@
+body {
+    font-family: tahoma;
+    color:#282828;
+    margin: 0px;
+}
+  
+  .nav-bar {
+    background: linear-gradient(-90deg, #84CF6A, #16C0B0);
+    height: 60px;
+    margin-bottom: 15px;
+  }
+
+  .product {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    padding: 1rem;
+  }
+
+  img {
+    border: 1px solid #d8d8d8;
+    width: 70%;
+    margin: 40px;
+    box-shadow: 0px .5px 1px #d8d8d8;
+    border-radius: 5px;
+  }
+  
+  /* .product-image {
+    width: 80%;
+  } */
+  
+  .product-image,
+  .product-info {
+    margin-top: 10px;
+    width: 50%;
+  }
+  
+  .color-box {
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+  }
+  
+  .cart {
+    margin-right: 25px;
+    margin-left: auto;
+    border: 1px solid #d8d8d8;
+    padding: 5px 20px;
+  }
+  
+  button {
+    margin-top: 30px;
+    border: none;
+    background-color: #1E95EA;
+    color: white;
+    height: 40px;
+    width: 100px;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  
+  .clear-cart-btn {
+    margin-top: 30px;
+    border: none;
+    background-color: lightgray;
+    color: rgb(10, 10, 10);
+    height: 40px;
+    width: 100px;
+    font-size: 14px;
+  }
+  
+  .disabledButton {
+    background-color: #d8d8d8;
+  }
+  
+  .review-form {
+    width: 16rem;
+    padding: 20px;
+    margin: 40px;
+    border: 1px solid #d8d8d8;
+  }
+  
+  input {
+    width: 100%;  
+    height: 25px;
+    margin-bottom: 20px;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 60px;
+  }
+
+  .tabs {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+
+  }
+  .tab {
+    cursor: pointer;
+    padding: 1rem;
+  }
+
+  .activeTab {
+    color: #16C0B0;
+    text-decoration: underline;
+  }
+
+  .product-title {
+    font-size: 2em;
+    font-weight: bold;
+    unicode-bidi: isolate;
+  }
+
+  .app {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .reviews {
+    margin-top: 10px;
+  }

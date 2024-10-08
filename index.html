@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, intitial-scale=1">
+        <title>Product App</title>
+    </head>
+
+    <body>
+
+        <div class="nav-bar"></div>
+
+        <!-- ROOT component -->
+        <div class="app" id="app">
+            <div class="cart">
+                <!-- some hoisted state to render -->
+                <p>Cart({{ cart.length }})</p>
+            </div>
+
+          
+            <div>
+                <!-- Child component of ROOT -->
+                <!-- :prop from Root getting passed to children -->
+                <!-- @emitted key with data, invoking method in this component (Root) -->
+                <product :premium="premium" :cart="cart" @add-to-cart="updateCart" @clear-cart="clearCart"></product>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="app.css">
+    </body>
+</html>
