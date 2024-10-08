@@ -9,9 +9,9 @@
 - hotloads on save.
 
 ## Component Tree
-Root
-  ├── Product (img, Title, details, colors, add to cart)
-  │     └── Product-Tabs (contains tabs for 'Reviews' & 'Make a Review')
-  │           ├── Reviews (with submitted reviews)
-  │           └── Make a Review (form)
-  │                └── Product-Review (inside 'Make a Review' tab)
+Root  
+├── Product (img, Title, details, colors, add to cart)  
+│   └── Product-Tabs (contains tabs for 'Reviews' & 'Make a Review')  
+│       ├── Reviews (with submitted reviews)  
+│       └── Make a Review (form)  
+│           └── Product-Review (inside 'Make a Review' tab)
